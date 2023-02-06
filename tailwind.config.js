@@ -18,6 +18,9 @@ export default {
         },
         fontSize:{
           xxs: '0.625rem',
+        },
+        minWidth: {
+          'min-w-1/2': '50%',
         }
       }
     }
