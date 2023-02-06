@@ -1,5 +1,5 @@
 <template>
-    <div class="m-auto p-2 flex flex-col items-center gap-5 bg-white rounded-lg mb-4 border max-w-sm">
+    <div class="mx-auto p-2 flex flex-col items-center gap-5 bg-white rounded-lg mb-4 border max-w-sm">
         <img :src="product.img" alt="cutlet" class="object-cover">
         <div class="text-sm border">
             <p class=" capitalize text-center border bg-amber-200 font-bold">{{product.category}}</p>

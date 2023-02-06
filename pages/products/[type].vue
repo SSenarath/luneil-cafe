@@ -1,12 +1,7 @@
 <template>
     <div class="flex flex-wrap justify-between">
-        <div v-if="type === 'shorteatsandsnacks'">
-            
-            <ProductCard v-for="p in shorteats" :product="p"/>
-        </div>
-        <div v-if="type === 'hoppersandcurries'">
-            <ProductCard  v-for="p in hoppersandcurries" :product="p"/>
-        </div>
+        <ProductCard v-if="type === 'shorteatsandsnacks'" v-for="p in shorteats" :product="p"/>
+        <ProductCard  v-if="type === 'hoppersandcurries'" v-for="p in hoppersandcurries" :product="p"/>
     </div>
 </template>
 
