@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-amber-50;
+  }
+  
+
+@layer components {
+    .btn {
+        border: white 2px solid;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        background-color: #fde68a;
+        border-radius: 0.5rem;
+    }
+  }
+  
+
